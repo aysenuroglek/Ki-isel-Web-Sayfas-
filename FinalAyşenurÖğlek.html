@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <title>Ayşenur Öğlek - Kişisel Web Sitesi</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="AYŞENUR ÖĞLEK - Kişisel Web Sitesi">
+    <meta name="keywords" content=" Ayşenur Öğlek, AYŞENUR, ÖĞLEK">
+    <meta name="author" content="Ayşenur Öğlek">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #ffffff;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+        
+        .margin {
+            margin-bottom: 45px;
+        }
+        
+        .bg-1 {
+            background-color: #e1e1e1;
+            /* Green */
+            color: #000000;
+            /* black */
+        }
+        
+        .bg-2 {
+            background-color: #dcd7d7;
+            /* Dark Blue */
+            color: #000000;
+        }
+        
+        .bg-3 {
+            background-color: #a19f9f;
+            /* White */
+            color: #000000;
+        }
+        
+        .bg-4 {
+            background-color: #5d5a5a;
+            /* Blue Diamond */
+            color: #ffffff;
+        }
+        
+        .bg-5 {
+            background-color: #626262;
+            /* Gray */
+            color: #ffffff;
+            
+        }
+        
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Ayşenur ÖĞLEK</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#kimdir">Kimdir?</a></li>
+                    <li><a href="#neyapar">Ne yapar?</a></li>
+                    <li><a href="#blog">Kullanıcı Giriş Ekranı</a></li>
+                    <li><a href="#iletisim">Çarpım Tablosu</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div id="kimdir" class="container-fluid bg-1 text-center">
+        <h3 class="margin">Merhaba, Ben Ayşenur!</h3>
+        <h3>Bilişim Güvenliği Öğrencisi</h3>
+    </div>
+
+    <!-- Second Container -->
+    <div id="neyapar" class="container-fluid bg-2 text-left">
+        <h3 class="margin">Neler Yaparım?</h3>
+        <p>Gazi üniversitesi 2. sınıf öğrencisiyim. Bu benim İnternet Programcılığı ödevim. bu ödevde kendi kişisel web sayfamızı oluşturduk.Bu derste CSS - HTML ve Javascript dillerini öğreniyoruz. </p>
+        <h2>Bildiğim yazılım dilleri:</h2>
+      <b></hr>
+        <ul> <!--listeleme(işaretleme)-->
+            <li>C#</li>
+            <li>Java</li>
+            <li>Phyton</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+           </ul>
+        </b>
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div id="blog" class="container-fluid bg-3 text-center">
+        <h3 class="margin">KULLANICI GİRİŞ EKRANI</h3>
+        <title>Kullanıcı Girişi</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        function validate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if (username == "aysenur" && password == "sifre") {
+                alert("Giriş başarılı!");
+                return true;
+            } else {
+                alert("Kullanıcı adı veya şifre yanlış. Lütfen tekrar deneyin.");
+                return false;
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color:#000000  ;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .userinfo {
+            background-color: #000000;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 10px;
+            text-align: center;
+           /* width: 600px;
+            height: 200px;*/
+            
+        }
+        h2 {
+            
+            font-size: 30px;
+        }
+
+        p {
+            
+            font-size: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px 0;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        input,
+        button {
+            margin: 10px;
+            color: black;
+            
+        }
+        .userinfo{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="return validate()">
+        <label for="username">Kullanıcı Adı:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Giriş Yap">
+    </form>
+</body>
+    </div>
+
+    <!-- Contact -->
+    <style>
+        #sayi1, #sayi2 {
+            margin: 0 auto; /* Yatayda ortala */
+            display: block;
+        }
+    </style>
+    
+    <div id="iletisim" class="container-fluid bg-5 text-center">
+        <h3 class="margin">Çarpım Tablosu</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-5 text-center">
+                <p>Merhaba denemek ister misiniz?</p>
+                <label for="sayi1">Sayı 1:</label>
+                <input type="number" id="sayi1">
+                <label for="sayi2">Sayı 2:</label>
+                <input type="number" id="sayi2">
+                <button onclick="hesapla()">Göster</button>
+                <table id="carpim-tablosu"></table>
+            </div>
+        </div>
+        
+        <script>
+            
+    
+    function hesapla() {
+        var sayi1 = parseInt(document.getElementById('sayi1').value);
+        var sayi2 = parseInt(document.getElementById('sayi2').value);
+        if (sayi1 > 10 || sayi1 < 1 || sayi2 > 10 || sayi2 < 1) {
+        alert("Lütfen 1 ile 10 arasında sayılar girin.");
+        return;
+        }
+
+        var carpimTablosuHTML = '<tr><th></th>';
+
+        for (var i = 1; i <= 10; i++) {
+            carpimTablosuHTML += '<th>' + i + '</th>';
+        }
+
+        carpimTablosuHTML += '</tr>';
+
+        for (var i = 1; i <= 10; i++) {
+            carpimTablosuHTML += '<tr>';
+            carpimTablosuHTML += '<th>' + i + '</th>';
+
+            for (var j = 1; j <= 10; j++) {
+                var carpimSonucu = i * j;
+
+                if (i === sayi1 && j === sayi2) {
+                    carpimTablosuHTML += '<td style="background-color: yellow;">' + carpimSonucu + '</td>';
+                } else {
+                    carpimTablosuHTML += '<td>' + carpimSonucu + '</td>';
+                }
+            }
+
+            carpimTablosuHTML += '</tr>';
+        }
+
+        document.getElementById('carpim-tablosu').innerHTML = carpimTablosuHTML;
+    }
+    
+  
+        </script>
+    </div>
+    
+     
+</div>             
+                               </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
